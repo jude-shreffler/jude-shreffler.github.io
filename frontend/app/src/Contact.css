@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+    width: 400px;
+    height: 225px;
+
+    text-align: center;
+
+    background-color: black;
+    color: white;
+}
+
+.message {
+    height: 200%;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: grey;
+    margin: 4px 4px;
+    padding: 2px 6px
+}
+
+p {
+    font-size: 18pt;
+}
+
+form {
+    position: relative;
+    top: 4px;
+}

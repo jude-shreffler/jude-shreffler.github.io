@@ -9,11 +9,11 @@ function Contact() {
             <div class="card">
                 <form>
                     <label for="name">Name:</label><br />
-                    <input type="text" id="name" name="name" /><br />
+                    <input type="text" id="name" name="name" placeholder="John Doe" /><br />
                     <label for="email">Email:</label><br />
-                    <input type="text" id="email" name="email" /><br />
+                    <input type="text" id="email" name="email" placeholder="you@domain.com" /><br />
                     <label for="message">Message:</label><br />
-                    <textarea type="text" id="message" name="message" rows="2"/><br />
+                    <textarea type="text" id="message" name="message" rows="2" value="check out this guy's message..."/><br />
                     <input type="submit" value="Submit" />
                 </form>
             </div>
